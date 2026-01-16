@@ -6,8 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B0B398C92F1782F4000E1463 /* MonthCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B398C82F1782F4000E1463 /* MonthCalendarView.swift */; };
+		B0B398CB2F178303000E1463 /* DayCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B398CA2F178303000E1463 /* DayCellView.swift */; };
+		B0B398CD2F17830D000E1463 /* DayDetailSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B398CC2F17830D000E1463 /* DayDetailSheet.swift */; };
+		B0B398CE2F178623000E1463 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B398C72F1782D3000E1463 /* HomeView.swift */; };
+		B0B398CF2F178B83000E1463 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B398C62F17788A000E1463 /* Money.swift */; };
+		B0B398D02F178BB4000E1463 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B398C52F174709000E1463 /* MockData.swift */; };
+		B0B398D12F178BB8000E1463 /* DaySummary.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B398C42F1746B5000E1463 /* DaySummary.swift */; };
+		B0B398D22F178BBE000E1463 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B398C32F1745F6000E1463 /* Transaction.swift */; };
+		B0B398D42F188B8B000E1463 /* TransactionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B398D32F188B8B000E1463 /* TransactionStore.swift */; };
+		B0B398D62F18C46F000E1463 /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B398D52F18C46F000E1463 /* AddTransactionView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		B0B398AF2F17445A000E1463 /* LikeLionBudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LikeLionBudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0B398C32F1745F6000E1463 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		B0B398C42F1746B5000E1463 /* DaySummary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySummary.swift; sourceTree = "<group>"; };
+		B0B398C52F174709000E1463 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		B0B398C62F17788A000E1463 /* Money.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		B0B398C72F1782D3000E1463 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B0B398C82F1782F4000E1463 /* MonthCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthCalendarView.swift; sourceTree = "<group>"; };
+		B0B398CA2F178303000E1463 /* DayCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCellView.swift; sourceTree = "<group>"; };
+		B0B398CC2F17830D000E1463 /* DayDetailSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayDetailSheet.swift; sourceTree = "<group>"; };
+		B0B398D32F188B8B000E1463 /* TransactionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionStore.swift; sourceTree = "<group>"; };
+		B0B398D52F18C46F000E1463 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +55,8 @@
 		B0B398A62F17445A000E1463 = {
 			isa = PBXGroup;
 			children = (
+				B0B398BE2F17452F000E1463 /* Features */,
+				B0B398BD2F174525000E1463 /* Model */,
 				B0B398B12F17445A000E1463 /* LikeLionBudget */,
 				B0B398B02F17445A000E1463 /* Products */,
 			);
@@ -43,6 +68,54 @@
 				B0B398AF2F17445A000E1463 /* LikeLionBudget.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		B0B398BD2F174525000E1463 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B0B398C62F17788A000E1463 /* Money.swift */,
+				B0B398C52F174709000E1463 /* MockData.swift */,
+				B0B398C42F1746B5000E1463 /* DaySummary.swift */,
+				B0B398C32F1745F6000E1463 /* Transaction.swift */,
+				B0B398D32F188B8B000E1463 /* TransactionStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B0B398BE2F17452F000E1463 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B0B398C22F174572000E1463 /* Transactions */,
+				B0B398C12F17456C000E1463 /* Calendar */,
+				B0B398C02F174566000E1463 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		B0B398C02F174566000E1463 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B0B398C72F1782D3000E1463 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B0B398C12F17456C000E1463 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				B0B398C82F1782F4000E1463 /* MonthCalendarView.swift */,
+				B0B398CA2F178303000E1463 /* DayCellView.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		B0B398C22F174572000E1463 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				B0B398CC2F17830D000E1463 /* DayDetailSheet.swift */,
+				B0B398D52F18C46F000E1463 /* AddTransactionView.swift */,
+			);
+			path = Transactions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +192,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B398D42F188B8B000E1463 /* TransactionStore.swift in Sources */,
+				B0B398D12F178BB8000E1463 /* DaySummary.swift in Sources */,
+				B0B398CB2F178303000E1463 /* DayCellView.swift in Sources */,
+				B0B398CF2F178B83000E1463 /* Money.swift in Sources */,
+				B0B398D22F178BBE000E1463 /* Transaction.swift in Sources */,
+				B0B398CD2F17830D000E1463 /* DayDetailSheet.swift in Sources */,
+				B0B398CE2F178623000E1463 /* HomeView.swift in Sources */,
+				B0B398D02F178BB4000E1463 /* MockData.swift in Sources */,
+				B0B398D62F18C46F000E1463 /* AddTransactionView.swift in Sources */,
+				B0B398C92F1782F4000E1463 /* MonthCalendarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +341,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -289,6 +373,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
