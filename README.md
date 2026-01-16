@@ -1,40 +1,69 @@
-# AI-Powered iOS Budgeting App
+# iOS Budgeting App (SwiftUI)
+An iOS budgeting application exploring how clean UI architecture, structured data models,
+and AI-assisted insights can be combined in a practical mobile product.
 
-This project explores how a mobile budgeting application can combine clean UI design with structured data models and AI-assisted insights.
+This project focuses not only on user-facing features, but also on building a maintainable
+foundation that separates UI, data handling, and future AI-driven logic.
 
-The focus is not only on user-facing features, but also on building a maintainable architecture that separates UI, data handling, and future AI-driven logic.
+---
 
 ## Project Status
-🚧 In active development.  
-Core architecture and UI flows are being implemented, with ongoing iteration on data models and app structure.
+In active development.  
+Core UI flows and app architecture are being implemented, with ongoing iteration on data models
+and budgeting logic.
+
+---
 
 ## Overview
-This project aims to go beyond a basic budgeting app by incorporating AI-driven features that support smarter financial decision-making.  
-The goal is to provide users with clear spending insights, patterns, and guidance through an intuitive mobile experience.
+The goal of this project is to go beyond a basic expense tracker by helping users better
+understand their spending patterns and financial behavior through clear visualizations and
+intelligent feedback.
 
-## Design & Planning
-Early user flows and screen planning can be found in the `/design` directory.
+Key areas of focus include:
+- Clear and intuitive budgeting flows
+- Structured transaction and category data models
+- Scalable architecture that can support AI-assisted insights
+- Thoughtful UX design for daily financial decision-making
 
-## Planned AI Features
-- Spending pattern analysis
-- Intelligent categorization of expenses
-- Personalized budget insights and suggestions *(planned)*
+---
+
+## My Role
+- Designing the overall app architecture and data flow
+- Implementing core budgeting screens using **SwiftUI**
+- Defining data models for transactions, categories, and summaries
+- Exploring how AI-assisted logic can be integrated into spending insights
+- Iterating on UI/UX based on usability and clarity
+
+> This project is being developed collaboratively, with my focus primarily on app structure,
+UI implementation, and data modeling.
+
+---
+
+## Planned Features
+- Budget and expense tracking
+- Calendar-based spending visualization
+- Categorization of transactions
+- Summary views for spending patterns
+- AI-assisted insights and suggestions (planned extension)
+
+---
 
 ## Tech Stack
-- Swift
-- SwiftUI
+- **Swift**
+- **SwiftUI**
 - MVVM-inspired UI architecture
 - Local data modeling and persistence (initial phase)
 - AI-assisted insight logic (planned extension)
 
-## Next Steps
-- Finalize user flows and IA
-- Implement core budgeting screens
-- Build foundational data models
-- Begin integrating AI-assisted logic
+---
 
-## My Role
-- Designing the overall app architecture and data flow
-- Implementing core budgeting screens using SwiftUI
-- Defining data models for transactions, categories, and summaries
-- Exploring how AI-assisted logic can be integrated into budgeting insights
+## Design & Planning
+Early user flows, screen planning, and design references can be found in the `/design` directory.
+
+---
+
+## Next Steps
+- Finalize core budgeting flows
+- Expand data models and summaries
+- Implement additional UI states and interactions
+- Begin integrating AI-assisted logic for spending insights
