@@ -62,8 +62,25 @@ Early user flows, screen planning, and design references can be found in the `/d
 
 ---
 
+## Project Structure
+
+The project is organized using a feature-based structure to keep UI logic,
+state handling, and data flow clearly separated.
+
+- `Features/` contains SwiftUI views grouped by core app features
+  (Home, Calendar, Transactions)
+- `Model/` defines core data models and stores used across the app
+- Shared state and mock data are centralized to support iterative UI development
+
+This structure was chosen to keep the codebase scalable as features grow
+and to make collaboration easier in a team environment.
+
+---
+
 ## Next Steps
 - Finalize core budgeting flows
+
+---
 - Expand data models and summaries
 - Implement additional UI states and interactions
 - Begin integrating AI-assisted logic for spending insights
